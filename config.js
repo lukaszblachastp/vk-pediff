@@ -6,23 +6,11 @@ module.exports = {
     ],
 
     environments: {
-        current: 'http://www.godt.no/',
-        candidate: 'http://www.testprod.godt.vgnett.no/'
+        current: 'http://www.vektklubb.no/',
+        candidate: 'http://stage.vektklubb.no/'
     },
 
-    css: {
-        'blockquote': 'display: none;',
-        '.quote-container': 'display: none!important;',
-        '.ingredients-in-season-slideshow-container .slideshow' : 'display: none;',
-        '.search-form .search-input::-webkit-input-placeholder' : 'color: #fff;',
-        '#content .video-data iframe' : 'visibility: hidden;',
-        '.user-bar': 'visibility: hidden!important',
-        '.article-qr-code': 'display: none!important;',
-        '.popular-recipes-container .data-list > li': 'display:none!important;',
-        '.article-data .share-list': 'display:none!important;',
-        '.restaurants-data .map': 'display:none!important',
-        '#advert-top, #advert-bottom,  #advert-left, #advert-right, #advert-integration, #advert-net, #advert-super': 'display: none !important;'
-    },
+    css: {},
 
     pediff: {
         defaultTimeout: 15000,
@@ -32,7 +20,7 @@ module.exports = {
 
         // Resemble.js settings
         outputSettings: {
-            errorColor: { red: 255, green: 0, blue: 255 },
+            errorColor: { red: 0, green: 0, blue: 200 },
             // flat | movement | flatDifferenceIntensity | movementDifferenceIntensity
             errorType: 'flatDifferenceIntensity',
             transparency: 1,

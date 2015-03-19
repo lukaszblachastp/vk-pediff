@@ -1,7 +1,7 @@
 module.exports = {
     config: {
-        path: '404',
-        package: '404'
+        path: '',
+        package: 'home'
     },
     execute: function(pediff, config) {
         pediff.screenshot('body');
